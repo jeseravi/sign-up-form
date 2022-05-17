@@ -1,0 +1,74 @@
+.pageContainer{
+    display:flex;
+    flex-direction:row;
+    
+
+}
+.logoContainer{
+    position:fixed;
+    width: 350px;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    top: 10rem;
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+    
+}
+.photoCredit{
+    position:fixed;
+    width: 350px;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    bottom: 1rem;
+    text-align: center;
+    font-size: 1em;
+    font-family: roboto;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    
+}
+
+.photoCredit > div{
+    margin:5px;
+    margin-right:10px;
+}
+
+.photoCredit > a{
+    margin: 5px;
+    margin-right:10px;
+}
+
+.designContainer{
+    display:flex;
+    flex-direction:column;
+    min-width:350px;
+    height:98vh;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    
+    
+    
+}
+
+#theLogo{
+    margin-bottom:-7px;
+}
+
+.signUpContainer{
+    margin-left:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input{
+    margin-bottom:15px;
+}
